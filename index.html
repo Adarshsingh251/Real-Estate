@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Bussiness</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <a class="go_up" href="#landing">
+        <i class="fa-solid fa-chevron-up"></i>
+    </a>
+    <nav>
+        <div class="logo">
+            <img src="logo.png" alt="logo hai">
+            <h2>real estate</h2>
+        </div>
+        <div class="nav-email">
+            <i class="fa-solid fa-plane"></i>
+            <div class="email">
+                <h2>email us anytime</h2>
+                <h3>realestate@gmail.com</h3>
+            </div>
+        </div>
+        <div class="menu">
+            <a href="#landing">Home</a>
+            <a href="#results">results</a>
+            <a href="#cards">agents</a>
+            <a href="#service">featured</a>
+            <a href="#about">about us</a>
+            <!-- <a href="">contact</a> -->
+            <button class="nav-btn">submit listing</button>
+        </div>
+    </nav>
+
+    <div id="customAlert" class="hidden">
+        <div class="alertBox">
+            <p id="alertMessage">Call Us on (+91) 7738-275-114</p>
+            <button class="close-alert">OK</button>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="landing" id="landing">
+            <h1>discover modern</h1>
+            <h1> and afforable home..</h1>
+            <p>"Find your perfect home with us! Trusted experts offering beautiful properties, transparent deals, and personalized support to make your real estate journey easy and successful.."</p>
+            <div class="button-div">
+                <button class="contact">contact us</button>
+                <div class="contact">
+                    <i class="fa-solid fa-phone-volume"></i>
+                    <div class="ctn">
+                        <h2>Call us anytime</h2>
+                        <h3>(+91) 7738-275-114</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="testimonials" id="results">
+            <div class="test_info">
+                <p>our testimonials</p>
+                <p>what clients say about us</p>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a pagewhen
+                    looking at its layouts.</p>
+            </div>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide s1">
+                        <img src="https://plus.unsplash.com/premium_photo-1669703777437-27602d656c27?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZmFrZSUyMG1hbnxlbnwwfHwwfHx8MA%3D%3D"
+                            alt="">
+                        <h2>Deirdre Elizabeth</h2>
+                        <h3>property owner</h3>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a
+                            page when looking at its was layout.The point of using Lorem Ipsum is that it has a
+                            more-or-less normal distribution.</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://plus.unsplash.com/premium_photo-1669703777428-48a39ccfe8cb?w=200&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1pbi1zYW1lLXNlcmllc3w1fHx8ZW58MHx8fHx8"
+                            alt="">
+                        <h2>Don khan</h2>
+                        <h3>property owner</h3>
+                        <p>"Excellent building with top-notch facilities, friendly management, timely maintenance, and a
+                            peaceful environment. Highly recommend to future tenants!".</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://plus.unsplash.com/premium_photo-1669704099220-055869422c3a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D"
+                            alt="">
+                        <h2>Shreiya Singh</h2>
+                        <h3>property owner</h3>
+                        <p>"Great experience overall, the building is clean, secure, and well-managed. Maintenance
+                            requests are handled quickly and staff is courteous."</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://images.unsplash.com/photo-1710250201394-47f597366ffd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGZha2UlMjBtYW58ZW58MHx8MHx8fDA%3D"
+                            alt="">
+                        <h2>SRK bhai</h2>
+                        <h3>property owner</h3>
+                        <p>"Living here has been wonderful! The property is beautifully maintained, quiet, and the
+                            landlord is always responsive and professional."</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://images.unsplash.com/photo-1724710151888-d9f0607f344a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDI5fHx8ZW58MHx8fHx8"
+                            alt="">
+                        <h2>Deirdre Elizabeth</h2>
+                        <h3>property owner</h3>
+                        <p>"Decent place to stay, good location, amenities are fair. Some delays in repairs, but
+                            management usually resolves issues politely."</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://images.unsplash.com/photo-1552337557-45792b252a2e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fGZha2UlMjBtYW58ZW58MHx8MHx8fDA%3D"
+                            alt="">
+                        <h2>Deirdre Elizabeth</h2>
+                        <h3>property owner</h3>
+                        <p>"The apartment is spacious and well-lit. Owner is very understanding and helpful whenever
+                            minor issues come up. Highly recommend."</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://plus.unsplash.com/premium_photo-1671464389911-dd0d8a06f2d3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEyfHx8ZW58MHx8fHx8"
+                            alt="">
+                        <h2>Rekha yadav</h2>
+                        <h3>property owner</h3>
+                        <p>"Loved the experience! Clean premises, secure environment, helpful building staff, and the
+                            owner always made sure everything was smooth."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about" id="about">
+            <div class="about_wrapper">
+                <div class="about_left">
+                    <div class="img1">
+                        <img src="" alt="" class="imageBox image1">
+                    </div>
+                    <div class="img2">
+                        <img src="" alt="" class="imageBox2 image2">
+                    </div>
+                    <div class="img3">
+                        <img src=https://images.unsplash.com/photo-1597060646929-1828196a9089?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE4fHx8ZW58MHx8fHx8"
+                            alt="" class="imageBox3 image3">
+                    </div>
+                </div>
+                <div class="about_right">
+                    <p>About us</p>
+                    <h2>Luxury Homes & Flat around the World.</h2>
+                    <p class="first1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, omnis quisquam.
+                        Necessitatibus, et cupiditate!.</p>
+                    <p class="first1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia error totam
+                        blanditiis officiis molestiae! Veniam iusto asperiores facere saepe. Molestias eius quibusdam
+                        iste rerum consequatur.
+                    </p>
+                    <div class="type_container">
+                        <div class="type1 t1">
+                            <div class="circle">
+                                <i class="fa-solid fa-building"></i>
+                            </div>
+                            <h2>Apartment</h2>
+                        </div>
+                        <div class="type2 t1">
+                            <div class="circle">
+                                <i class="fa-solid fa-building"></i>
+                            </div>
+                            <h2>House</h2>
+                        </div>
+                        <div class="type3 t1">
+                            <div class="circle">
+                                <i class="fa-solid fa-building"></i>
+                            </div>
+                            <h2>Commerical</h2>
+                        </div>
+                    </div>
+                    <button class="contact" onclick="call()">contact us</button>
+                </div>
+            </div>
+        </div>
+        <div class="our_services" id="service">
+            <div class="service_short_detail">
+                <p>Our Services</p>
+                <h2>Real Estate Services Available</h2>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when
+                    looking at its layout..</p>
+            </div>
+            <div class="service_detail">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <i class="fa-solid fa-house-chimney"></i>
+                        <p class="para">Sell Your Home</p>
+                        <hr>
+                        <p>"Selling my home was smooth and easy. The owner guided me through every step and got a great price."</p>
+                        <button>Read More</button>
+                    </div>
+                    <div class="swiper-slide">
+                        <i class="fa-solid fa-house-circle-check"></i>
+                        <p class="para">Home Inspection</p>
+                        <hr>
+                        <p>"Wonderful experience selling my property! The process was transparent, quick, and I felt supported from listing to closing day."</p>
+                        <button>Read More</button>
+                    </div>
+                    <div class="swiper-slide">
+                        <i class="fa-solid fa-gavel"></i>
+                        <p class="para">Evaluation</p>
+                        <hr>
+                        <p>"Home sold faster than expected. Great communication, professional handling, and fair pricing throughout. Would definitely work with them again."</p>
+                        <button>Read More</button>
+                    </div>
+                    <div class="swiper-slide">
+                        <i class="fa-solid fa-hands-asl-interpreting"></i>
+                        <p class="para">Legal Services</p>
+                        <hr>
+                        <p>"Selling was stress-free thanks to their expertise. They marketed the home well and got multiple offers within days."</p>
+                        <button>Read More</button>
+                    </div>
+                    <div class="swiper-slide">
+                        <i class="fa-solid fa-house-chimney"></i>
+                        <p class="para">Legal services</p>
+                        <hr>
+                        <p>"Had a fantastic selling experience. Transparent advice, quick updates, and strong negotiations made it a smooth and successful deal."</p>
+                        <button>Read More</button></div>
+                </div>
+            </div>
+        </div>
+        <div class="card_container" id="cards">
+            <div class="card_heading">
+                <p>Discover</p>
+                <h2>Our Popular Listing</h2>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            </div>
+            <div class="card-list">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1605672243109-902790a101e5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGJ1bGRpbmd8ZW58MHx8MHx8fDA%3D" alt="image hai hotel ka">
+                    <div class="heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <div class="info">
+                        <div class="f1">
+                            <i class="fa-solid fa-bed"></i>
+                            <p>Bed : 3</p>
+                        </div>
+                        <div class="f1">
+                            <i class="fa-solid fa-bath"></i>
+                            <p>Bath : 2</p>
+                        </div>
+                        <div class="f1">
+                            <i class="fa-solid fa-chart-area"></i>
+                            <p>1000 Sqft</p>
+                        </div>
+                    </div>
+                    <div class="name">
+                        <h2>Black glass house</h2>
+                        <p><i class="fa-solid fa-street-view"></i>Vatikanka 11, Zagreb, uttarpradesh</p>
+                    </div>
+                    <p class="rent">$300/ Monthly</p>
+                    <div class="poster_person_name">
+                        <p>post: <i class="fa-solid fa-calendar-days"></i> 2month</p>
+                        <p class="names">Adarsh singh</p>
+                    </div>
+                </div>  
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1608196948101-286ba040a5ea?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGJ1bGRpbmd8ZW58MHx8MHx8fDA%3D" alt="image hai hotel ka">
+                    <div class="heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <div class="info">
+                        <div class="f1">
+                            <i class="fa-solid fa-bed"></i>
+                            <p>Bed : 3</p>
+                        </div>
+                        <div class="f1">
+                            <i class="fa-solid fa-bath"></i>
+                            <p>Bath : 2</p>
+                        </div>
+                        <div class="f1">
+                            <i class="fa-solid fa-chart-area"></i>
+                            <p>1000 Sqft</p>
+                        </div>
+                    </div>
+                    <div class="name">
+                        <h2>Bulleten Tower</h2>
+                        <p><i class="fa-solid fa-street-view"></i>Vatikanka 11, Zagreb, uttarpradesh</p>
+                    </div>
+                    <p class="rent">$320/ Monthly</p>
+                    <div class="poster_person_name">
+                        <p>post: <i class="fa-solid fa-calendar-days"></i> 2month</p>
+                        <p class="names">Ravindr singh</p>
+                    </div>
+                </div>  
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1568932166062-012821503ca7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YnVsZGluZ3xlbnwwfHwwfHx8MA%3D%3D" alt="image hai hotel ka">
+                    <div class="heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <div class="info">
+                        <div class="f1">
+                            <i class="fa-solid fa-bed"></i>
+                            <p>Bed : 3</p>
+                        </div>
+                        <div class="f1">
+                            <i class="fa-solid fa-bath"></i>
+                            <p>Bath : 2</p>
+                        </div>
+                        <div class="f1">
+                            <i class="fa-solid fa-chart-area"></i>
+                            <p>1000 Sqft</p>
+                        </div>
+                    </div>
+                    <div class="name">
+                        <h2>Glass House</h2>
+                        <p><i class="fa-solid fa-street-view"></i>Lucknow, Zagreb, uttarpradesh</p>
+                    </div>
+                    <p class="rent">$500/ Monthly</p>
+                    <div class="poster_person_name">
+                        <p>post: <i class="fa-solid fa-calendar-days"></i> 2month</p>
+                        <p class="names">Lalji Singh</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1672257895774-5b5bfa3f9eb0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YnVsZGluZyUyMHRvd2VyfGVufDB8fDB8fHww" alt="image hai hotel ka">
+                    <div class="heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <div class="info">
+                        <div class="f1">
+                            <i class="fa-solid fa-bed"></i>
+                            <p>Bed : 3</p>
+                        </div>
+                        <div class="f1">
+                            <i class="fa-solid fa-bath"></i>
+                            <p>Bath : 2</p>
+                        </div>
+                        <div class="f1">
+                            <i class="fa-solid fa-chart-area"></i>
+                            <p>1000 Sqft</p>
+                        </div>
+                    </div>
+                    <div class="name">
+                        <h2>Light House</h2>
+                        <p><i class="fa-solid fa-street-view"></i>Vatikanka 11, Zagreb, uttarpradesh</p>
+                    </div>
+                    <p class="rent">$290/ Monthly</p>
+                    <div class="poster_person_name">
+                        <p>post: <i class="fa-solid fa-calendar-days"></i> 2month</p>
+                        <p class="names">Shivam Singh</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1700573127830-eef621b186ae?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGJ1bGRpbmclMjB0b3dlcnxlbnwwfHwwfHx8MA%3D%3D" alt="image hai hotel ka">
+                    <div class="heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <div class="info">
+                        <div class="f1">
+                            <i class="fa-solid fa-bed"></i>
+                            <p>Bed : 3</p>
+                        </div>
+                        <div class="f1">
+                            <i class="fa-solid fa-bath"></i>
+                            <p>Bath : 2</p>
+                        </div>
+                        <div class="f1">
+                            <i class="fa-solid fa-chart-area"></i>
+                            <p>1000 Sqft</p>
+                        </div>
+                    </div>
+                    <div class="name">
+                        <h2>Atlantic Glass House</h2>
+                        <p><i class="fa-solid fa-street-view"></i>Vatikanka 11, Zagreb, uttarpradesh</p>
+                    </div>
+                    <p class="rent">$250/ Monthly</p>
+                    <div class="poster_person_name">
+                        <p>post: <i class="fa-solid fa-calendar-days"></i> 2month</p>
+                        <p class="names">Shivansh Singh</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://plus.unsplash.com/premium_photo-1661935833529-352a998f6110?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGJ1bGRpbmclMjB0b3dlcnxlbnwwfHwwfHx8MA%3D%3D" alt="image hai hotel ka">
+                    <div class="heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <div class="info">
+                        <div class="f1">
+                            <i class="fa-solid fa-bed"></i>
+                            <p>Bed : 3</p>
+                        </div>
+                        <div class="f1">
+                            <i class="fa-solid fa-bath"></i>
+                            <p>Bath : 2</p>
+                        </div>
+                        <div class="f1">
+                            <i class="fa-solid fa-chart-area"></i>
+                            <p>1000 Sqft</p>
+                        </div>
+                    </div>
+                    <div class="name">
+                        <h2>Tower House</h2>
+                        <p><i class="fa-solid fa-street-view"></i>Vatikanka 11, Zagreb, uttarpradesh</p>
+                    </div>
+                    <p class="rent">$350/ Monthly</p>
+                    <div class="poster_person_name">
+                        <p>post: <i class="fa-solid fa-calendar-days"></i> 2month</p>
+                        <p class="names">Resu Cardit</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>&copy All Right Are Reserved. By Real Estate Pvt Ltd</p>
+        </footer>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/gsap.min.js"
+        integrity="sha512-f6bQMg6nkSRw/xfHw5BCbISe/dJjXrVGfz9BSDwhZtiErHwk7ifbmBEtF9vFW8UNIQPhV2uEFVyI/UHob9r7Cw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
