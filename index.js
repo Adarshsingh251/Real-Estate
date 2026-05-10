@@ -27,9 +27,9 @@ ok_button.addEventListener("click", () => {
     // closebox.style.scale = 0;
 })
 
-/* swiper js code*//
+/* swiper js code*/
 
-var swipe = new Swiper(".swiper", {
+let swipe = new Swiper(".swiper", {
     loop: true,
     autoplay: {
         delay: 2500,
